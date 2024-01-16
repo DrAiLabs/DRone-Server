@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DroneApi.LoggerService\DroneApi.LoggerService.csproj" />
+    <ProjectReference Include="..\DroneApi.Persistence\DroneApi.Persistence.csproj" />
+    <ProjectReference Include="..\DroneApi.Services.Contracts\DroneApi.Services.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>
